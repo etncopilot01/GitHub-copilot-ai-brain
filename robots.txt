@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://etncopilot01.github.io/GitHub-copilot-ai-brain/sitemap.xml
