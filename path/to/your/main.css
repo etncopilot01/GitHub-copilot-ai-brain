@@ -1,0 +1,41 @@
+/* Light theme styles based on Apple's design */
+
+body {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* High-contrast black text */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666; /* Muted gray for secondary text */
+}
+
+a {
+    color: #007bff; /* Blue for links/buttons */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, input[type="button"], input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for rounded corners and shadows */
+.card {
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove dark mode styles */
+/* Previous dark theme background colors and styles should be removed or commented out */
